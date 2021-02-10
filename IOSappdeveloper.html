@@ -1,0 +1,180 @@
+<html>
+<head>
+<style>
+.button 
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button2 
+{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+.button2:hover 
+{
+    background-color: #008CBA;
+    color: white;
+}
+</style>
+</head>
+<body bgcolor="#FFE4C4">
+<a name="top"></a>
+<font size="6" color="#827717"><h1>MOCK TEST</h1></font>
+<font color="#827717"><h3>(IOS App Developer)</h3></font>
+<hr>
+<font size="4" color ="red"><b><u>PLEASE READ THE FOLLOWING INSTRUCTIONS CAREFULLY</u></b><br></font>
+<font size="5" color ="#DD2C00">
+1)This is your level 2 mock test<br>
+2)The test comprises of 20 questions each of 1 mark <br>
+3)You have to answer all questions<br>
+</font>
+<br>
+<br>
+<br>
+<form action = "quizresultios.php" method = 'POST'>
+<font size="4" color ="#263238">
+1.Which of the following structures has both computed and stored properties?<br>
+ <input type = "radio" name = "q1" value = "1" >a.struct Rect { var origin = CGPointZero var center: CGPoint { get { // } set { // } }}<br>
+ <input type = "radio" name = "q1" value = "2" >b.struct Rect { var center: CGPoint { get { // } set { // } } }<br>
+ <input type = "radio" name = "q1" value = "3" >c.struct Rect { let origin = CGPointZero }<br>
+ <input type = "radio" name = "q1" value = "4" >d.struct Rect { var origin = CGPointZero var center: CGPointMake(0,0) }<br>
+<br>
+2.Which one of the below functions definitions is wrong considering Swift language?<br>
+ <input type = "radio" name = "q2" value = "1" >a.func haveChar(#string: String, character: Character) -> (Bool)<br>
+ <input type = "radio" name = "q2" value = "2" >b.func mean(numbers: Double...) -> Double<br>
+ <input type = "radio" name = "q2" value = "3" >c.func minMax(array: [Int]) -> (min: Int, max: Int)?<br>
+ <input type = "radio" name = "q2" value = "4" >d.func minMax(array: [Int]) -> (min: Int?, max: Int?)<br>
+<br>
+3.Which keyword do you use to declare enumeration?<br>
+ <input type = "radio" name = "q3" value = "1" >a.var<br>
+ <input type = "radio" name = "q3" value = "2" >b.let<br>
+ <input type = "radio" name = "q3" value = "3" >c.enum<br>
+ <input type = "radio" name = "q3" value = "4" >d.e(num)<br>
+ <br>
+4.Which of the following declares a mutable array in Swift?<br>
+ <input type = "radio" name = "q4" value = "1" >a.let x = [Int]()<br>
+ <input type = "radio" name = "q4" value = "2" >b.var x = [Int]<br>
+ <input type = "radio" name = "q4" value = "3" >c.var x = [Int]()<br>
+ <input type = "radio" name = "q4" value = "4" >d.let x = [Int]<br>
+ <br>
+5.Which of these is an appropriate syntax for declaring a function that takes an argument 
+  of a generic type?<br>
+ <input type = "radio" name = "q5" value = "1" >a.generic func genericFunction(argument: T) { }<br>
+ <input type = "radio" name = "q5" value = "2" >b.func genericFunction<T>(argument) { }<br>
+ <input type = "radio" name = "q5" value = "3" >c.func genericFunction(argument: T<Generic>) { }<br>
+ <input type = "radio" name = "q5" value = "4" >d.func genericFunction<T>(argument: T) { }<br>
+<br>
+6.Which one creates a dictionary with a key type of Integer and value of String?<br>
+ <input type = "radio" name = "q6" value = "1" >a.var dict:[Int: String] = ["one":1]<br>
+ <input type = "radio" name = "q6" value = "2" >b.var dict: = [1: "name"] : [2, "name2"]<br>
+ <input type = "radio" name = "q6" value = "3" >c.var dict: [Int: String] = [1:"one"]<br>
+ <input type = "radio" name = "q6" value = "4" >d.var dict: [String: Int] = [1:"one"]<br>
+ <br>
+7.Which of these is not a valid property declaration in Swift?<br>
+ <input type = "radio" name = "q7" value = "1" >a.final let x = 0<br>
+ <input type = "radio" name = "q7" value = "2" >b.final lazy let x = 0<br>
+ <input type = "radio" name = "q7" value = "3" >c.final lazy var x = 0<br>
+ <input type = "radio" name = "q7" value = "4" >d.final var x = 0<br>
+<br>
+8.All Swift classes must inherit from which root class?<br>
+ <input type = "radio" name = "q8" value = "1" >a.Not Required<br>
+ <input type = "radio" name = "q8" value = "2" >b.NSObject<br>
+ <input type = "radio" name = "q8" value = "3" >c.NSRootObject<br>
+ <input type = "radio" name = "q8" value = "4" >d.@ObjC<br>
+ 
+9.Which of the following statements could be used to determine if a given variable is<br> 
+  of String type?<br>
+ <input type = "radio" name = "q9" value = "1" >a.if unknownVariable is String { }<br>
+ <input type = "radio" name = "q9" value = "2" >b.if unkownVariable: String { }<br>
+ <input type = "radio" name = "q9" value = "3" >c.if unkownVariable = String() { }<br>
+ <input type = "radio" name = "q9" value = "4" >d.if unkownVariable <> String[] { }<br>
+ <br>
+10.What would be used for safe casting and to return nil if failed?<br>
+ <input type = "radio" name = "q10" value = "1" >a.as?<br>
+ <input type = "radio" name = "q10" value = "2" >b.!as?<br>
+ <input type = "radio" name = "q10" value = "3" >c.!as!<br>
+ <input type = "radio" name = "q10" value = "4" >d.11.<br>
+ <br>
+11.When declaring an enumeration, multiple member values can appear on a single line, <br>
+	separated by which punctuation mark?<br>
+ <input type = "radio" name = "q11" value = "1" >a.Semi-colon<br>
+ <input type = "radio" name = "q11" value = "2" >b.Colon<br>
+ <input type = "radio" name = "q11" value = "3" >c.Comma<br>
+ <input type = "radio" name = "q11" value = "4" >d.Question Mark<br>
+ <br>
+12.Which keyword in the context of a Switch statement is required to force the execution of a<br> 
+   subsequent case?<br>
+ <input type = "radio" name = "q12" value = "1" >a.Fallthrough<br>
+ <input type = "radio" name = "q12" value = "2" >b.Continue<br>
+ <input type = "radio" name = "q12" value = "3" >c.Release<br>
+ <input type = "radio" name = "q12" value = "4" >d.DropEnd<br>
+ <br>
+13.Which keyword do you use to declare enumeration?<br>
+ <input type = "radio" name = "q13" value = "1" >a.var<br>
+ <input type = "radio" name = "q13" value = "2" >b.let<br>
+ <input type = "radio" name = "q13" value = "3" >c.enum<br>
+ <input type = "radio" name = "q13" value = "4" >d.e(num)<br>
+ <br>
+14.Which of the following declares a mutable array in Swift?<br>
+ <input type = "radio" name = "q14" value = "1" >a.let x = [Int]()<br>
+ <input type = "radio" name = "q14" value = "2" >b.var x = [Int]<br>
+ <input type = "radio" name = "q14" value = "3" >c.var x = [Int]()<br>
+ <input type = "radio" name = "q14" value = "4" >d.let x = [Int]<br>
+ <br>
+15.Which of these is an appropriate syntax for declaring a function that takes an argument 
+  of a generic type?<br>
+ <input type = "radio" name = "q15" value = "1" >a.generic func genericFunction(argument: T) { }<br>
+ <input type = "radio" name = "q15" value = "2" >b.func genericFunction<T>(argument) { }<br>
+ <input type = "radio" name = "q15" value = "3" >c.func genericFunction(argument: T<Generic>) { }<br>
+ <input type = "radio" name = "q15" value = "4" >d.func genericFunction<T>(argument: T) { }<br>
+<br>
+16.Which one creates a dictionary with a key type of Integer and value of String?<br>
+ <input type = "radio" name = "q16" value = "1" >a.var dict:[Int: String] = ["one":1]<br>
+ <input type = "radio" name = "q16" value = "2" >b.var dict: = [1: "name"] : [2, "name2"]<br>
+ <input type = "radio" name = "q16" value = "3" >c.var dict: [Int: String] = [1:"one"]<br>
+ <input type = "radio" name = "q16" value = "4" >d.var dict: [String: Int] = [1:"one"]<br>
+ <br>
+17.Which of these is not a valid property declaration in Swift?<br>
+ <input type = "radio" name = "q17" value = "1" >a.final let x = 0<br>
+ <input type = "radio" name = "q17" value = "2" >b.final lazy let x = 0<br>
+ <input type = "radio" name = "q17" value = "3" >c.final lazy var x = 0<br>
+ <input type = "radio" name = "q17" value = "4" >d.final var x = 0<br>
+
+18.Which keyword is used on a function in an enumeration to indicate that the<br> 
+   function will modify 'self'?<br>
+ <input type = "radio" name = "q18" value = "1" >a.modifier<br>
+ <input type = "radio" name = "q18" value = "2" >b.mutating<br>
+ <input type = "radio" name = "q18" value = "3" >c.mutable<br>
+ <input type = "radio" name = "q18" value = "4" >d.mod <br>
+ <br>
+19.What is the name of the deinitializer in a Class declaration?<br>
+ <input type = "radio" name = "q19" value = "1" >a.dealloc<br>
+ <input type = "radio" name = "q19" value = "2" >b.release<br>
+ <input type = "radio" name = "q19" value = "3" >c.dint<br>
+ <input type = "radio" name = "q19" value = "4" >d.deinit<br>
+ <br>
+20.Which of the following declares a mutable array in Swift?<br>
+ <input type = "radio" name = "q20" value = "1" >a.let x = [Int]()<br>
+ <input type = "radio" name = "q20" value = "2" >b.var x = [Int]<br>
+ <input type = "radio" name = "q20" value = "3" >c.var x = [Int]()<br>
+ <input type = "radio" name = "q20" value = "4" >d.let x = [Int]<br>
+ <br>
+<input type = 'submit' value='SUBMIT' button class="button button2"></button>
+<a href="#top"><img src="arrow.png" width= "45px" height="45px" align="right" ></a>
+
+</font>
+</form>
+</body>
+</html>

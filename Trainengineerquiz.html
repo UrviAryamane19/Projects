@@ -1,0 +1,213 @@
+<html>
+<head>
+<style>
+.button 
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button2 
+{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+.button2:hover 
+{
+    background-color: #008CBA;
+    color: white;
+}
+</style>
+</head>
+<body bgcolor="#FFE4C4">
+<a name="top"></a>
+<font size="6" color="#827717"><h1>MOCK TEST</h1></font>
+<font color="#827717"><h3>(Web Developer)</h3></font>
+<hr>
+<font size="4" color ="red"><b><u>PLEASE READ THE FOLLOWING INSTRUCTIONS CAREFULLY</u></b><br></font>
+<font size="5" color ="#DD2C00">
+1)This is your level 2 mock test<br>
+2)The test comprises of 20 questions each of 1 mark <br>
+3)You have to answer all questions<br>
+</font>
+<br>
+<br>
+<br>
+<form action = "quizresulttrainee.php" method = 'POST'>
+<font size="4" color ="#263238">
+1] What is (void*)0?<br>
+	A.	<input type = "radio" value = "1" name = "q1" >Representation of NULL pointer<br>
+	B.	<input type = "radio" value = "2" name = "q1" >Representation of void pointer<br>
+	C.	<input type = "radio" value = "3" name = "q1" >Error<br>
+	D.	<input type = "radio" value = "4" name = "q1" >None of above<br>
+<br>
+2] 	Can you combine the two statements into one
+	char *p;<br>
+	p = (char*) malloc(100);<br>
+A.	<input type = "radio" value = "1" name = "q2" >char p = *malloc(100);<br>
+B.	<input type = "radio" value = "2" name = "q2" >char *p = (char) malloc(100);<br>
+C.	<input type = "radio" value = "3" name = "q2" >char *p = (char*)malloc(100);<br>
+D.	<input type = "radio" value = "4" name = "q2" >char *p = (char *)(malloc*)(100);<br>
+<br>
+3]	In which header file is the NULL macro defined?<br>
+A.	<input type = "radio" value = "1" name = "q3" >stdio.h<br>
+B.	<input type = "radio" value = "2" name = "q3" >stddef.h<br>
+C.	<input type = "radio" value = "3" name = "q3" >stdio.h and stddef.h<br>
+D.  <input type = "radio" value = "4" name = "q3" >math.h<br>
+<br>
+4] 		How many bytes are occupied by near, far and huge pointers (DOS)?<br>
+A.	<input type = "radio" value = "1" name = "q4" >near=2 far=4 huge=4<br>
+B.	<input type = "radio" value = "2" name = "q4" >near=4 far=8 huge=8<br>
+C.	<input type = "radio" value = "3" name = "q4" >near=2 far=4 huge=8<br>
+D.	<input type = "radio" value = "4" name = "q4" >near=4 far=4 huge=8<br>
+<br>
+5]	
+If a variable is a pointer to a structure, then which of the following operator 
+is used to access data members of the structure through the pointer variable?<br>
+A.	<input type = "radio" value = "1" name = "q5" >.<br>
+B.	<input type = "radio" value = "2" name = "q5" >& <br>
+C.	<input type = "radio" value = "3" name = "q5" >*<br>
+D.	<input type = "radio" value = "4" name = "q5" >-><br>
+<br>
+6] 	
+What would be the equivalent pointer expression for referring the array element a[i][j][k][l] ? <br>
+A.	<input type = "radio" value = "1" name = "q6" >((((a+i)+j)+k)+l)<br>
+B.	<input type = "radio" value = "2" name = "q6" >*(*(*(*(a+i)+j)+k)+l)<br>
+C.	<input type = "radio" value = "3" name = "q6" >(((a+i)+j)+k+l)<br>
+D.	<input type = "radio" value = "4" name = "q6" >(a+i)+j+k+l)<br>
+<br>
+7] 	
+A pointer is<br>
+A.	<input type = "radio" value = "1" name = "q7" >A keyword used to create variables<br>
+B.	<input type = "radio" value = "2" name = "q7" >A variable that stores address of an instruction<br>
+C.	<input type = "radio" value = "3" name = "q7" >A variable that stores address of other variable<br>
+D.	<input type = "radio" value = "4" name = "q7" >All of the above<br>
+<br>
+8]	
+The operator used to get name at address stored in a pointer variable is ?<br>
+A.	<input type = "radio" value = "1" name = "q8" >*<br>
+B.	<input type = "radio" value = "2" name = "q8" >& <br>
+C.	<input type = "radio" value = "3" name = "q8" >&&<br>
+D.	<input type = "radio" value = "4" name = "q8" >||<br>
+<br>
+9] Property which allows to produce different executable for different platforms in C is called? <br>
+a) <input type = "radio" value = "1" name = "q9" >File inclusion<br>
+b) <input type = "radio" value = "2" name = "q9" >Selective inclusion<br>
+c) <input type = "radio" value = "3" name = "q9" >Conditional compilation<br>
+d) <input type = "radio" value = "4" name = "q9" >Recursive macros<br>
+<br>
+10] C preprocessor is conceptually the first step during compilation<br>
+a) <input type = "radio" value = "1" name = "q10" >true<br>
+b) <input type = "radio" value = "2" name = "q10" >false<br>
+c) <input type = "radio" value = "3" name = "q10" >Depends on the compiler<br>
+d) <input type = "radio" value = "4" name = "q10" >Depends on the standard<br>
+<br>
+11] Which is an indirection operator among the following?<br>
+a) <input type = "radio" value = "1" name = "q11" >& <br>
+b) <input type = "radio" value = "2" name = "q11" >*<br>
+c) <input type = "radio" value = "3" name = "q11" >-><br>
+d) <input type = "radio" value = "4" name = "q11" >.<br>
+<br>
+12] Which of the following does not initialize ptr to null 
+(assuming variable declaration of a as int     a=0;?<br>
+a) <input type = "radio" value = "1" name = "q12" >int *ptr = &a;<br>
+b) <input type = "radio" value = "2" name = "q12" >int *ptr = &a – &a;<br>
+c) <input type = "radio" value = "3" name = "q12" >int *ptr = a – a;<br>
+d) <input type = "radio" value = "4" name = "q12" >All of the mentioned<br>
+<br>
+13] What is the output of this C code?<br>
+
+    #include <stdio.h><br>
+    int x = 0;<br>
+    void main()<br>
+    {<br>
+        int *ptr = &x;<br>
+        printf("%p\n", ptr);<br>
+        x++;<br>
+        printf("%p\n ", ptr);<br>
+    }<br>
+a) <input type = "radio" value = "1" name = "q13" >Same address<br>
+b) <input type = "radio" value = "2" name = "q13" >Different address<br>
+c) <input type = "radio" value = "3" name = "q13" >Compile time error<br>
+d) <input type = "radio" value = "4" name = "q13" >Varies<br>
+<br>
+14] What is the output of this C code?<br>
+
+    #include <stdio.h><br>
+    int x = 0;<br>
+    void main()<br>
+    {<br>
+        int *const ptr = &x;<br>
+        printf("%p\n", ptr);<br>
+        ptr++;<br>
+        printf("%p\n ", ptr);<br>
+    }<br>
+a) <input type = "radio" value = "1" name = "q14" >0 1<br>
+b) <input type = "radio" value = "2" name = "q14" >Compile time error<br>
+c) <input type = "radio" value = "3" name = "q14" >0xbfd605e8 0xbfd605ec<br>
+d) <input type = "radio" value = "4" name = "q14" >0xbfd605e8 0xbfd605e8<br>
+<br>
+15] What is the output of this C code?<br>
+
+    #include <stdio.h><br>
+    void main()<br>
+    {
+        int x = 0;<br>
+        int *ptr = &x;<br>
+        printf("%p\n", ptr);<br>
+        ptr++;<br>
+        printf("%p\n ", ptr);<br>
+    }<br>
+a) <input type = "radio" value = "1" name = "q15" >0xbfd605e8 0xbfd605ec<br>
+b) <input type = "radio" value = "2" name = "q15" >0xbfd605e8 0cbfd60520<br>
+c) <input type = "radio" value = "3" name = "q15" >0xbfd605e8 0xbfd605e9<br>
+d) <input type = "radio" value = "4" name = "q15" >Run time error<br>
+<br>
+16] 	
+A pointer is<br>
+A.	<input type = "radio" value = "1" name = "q7" >A keyword used to create variables<br>
+B.	<input type = "radio" value = "2" name = "q7" >A variable that stores address of an instruction<br>
+C.	<input type = "radio" value = "3" name = "q7" >A variable that stores address of other variable<br>
+D.	<input type = "radio" value = "4" name = "q7" >All of the above<br>
+<br>
+17] 	
+The operator used to get name at address stored in a pointer variable is ?<br>
+A.	<input type = "radio" value = "1" name = "q8" >*<br>
+B.	<input type = "radio" value = "2" name = "q8" >& <br>
+C.	<input type = "radio" value = "3" name = "q8" >&&<br>
+D.	<input type = "radio" value = "4" name = "q8" >||<br>
+<br>
+18] Property which allows to produce different executable for different platforms in C is called? <br>
+a) <input type = "radio" value = "1" name = "q9" >File inclusion<br>
+b) <input type = "radio" value = "2" name = "q9" >Selective inclusion<br>
+c) <input type = "radio" value = "3" name = "q9" >Conditional compilation<br>
+d) <input type = "radio" value = "4" name = "q9" >Recursive macros<br>
+<br>
+19] C preprocessor is conceptually the first step during compilation<br>
+a) <input type = "radio" value = "1" name = "q10" >true<br>
+b) <input type = "radio" value = "2" name = "q10" >false<br>
+c) <input type = "radio" value = "3" name = "q10" >Depends on the compiler<br>
+d) <input type = "radio" value = "4" name = "q10" >Depends on the standard<br>
+<br>
+20] Which is an indirection operator among the following?
+a) <input type = "radio" value = "1" name = "q11" >& <br>
+b) <input type = "radio" value = "2" name = "q11" >*<br>
+c) <input type = "radio" value = "3" name = "q11" >-><br>
+d) <input type = "radio" value = "4" name = "q11" >.<br>
+<br>
+<br><input type = 'submit' value='SUBMIT' button class="button button2"></button>
+<a href="#top"><img src="arrow.png" width= "45px" height="45px" align="right" ></a>
+</font>
+
+</body>
+</html>

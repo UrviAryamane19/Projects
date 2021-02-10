@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Payment Form</title>
+<style>
+div{
+	background-color:#EF9A9A;
+}
+</style>
+</head>
+<div>
+<body>
+<section>
+<form id=payment form action = "payment.php" method  = "POST" name = "myform">
+<fieldset>
+<legend>Card Details</legend>
+<div align="center" style="font-size:50px">Rs.10000(All Courses)</div>
+<ol>
+<li>
+<fieldset>
+<legend>Card Type</legend>
+<ol>
+<li>
+<input id=visa name=cardtype type=radio required />
+<label for=visa>VISA</label>
+</li>
+<li>
+<input id=amex name=cardtype type=radio required />
+<label for=amex>AmEx</label>
+</li>
+<li>
+<input id=mastercard name=cardtype type=radio required />
+<label for=mastercard>Mastercard</label>
+</li>
+</ol>
+</fieldset>
+</li>
+<br>
+<li>
+<label for=cardnumber>Card Number</label>
+<input id=cardnumber name=cardnumber type=number />
+</li>
+<br>
+<li>
+<label for=secure>CVV</label>
+<input id=secure name=secure type=number required maxlength=4 />
+</li>
+<br>
+<li>
+<label for=namecard>Name on Card</label>
+<input id=namecard name=namecard type=text placeholder="Exact name as on the card" required />
+</li>
+<br>
+</ol>
+</fieldset>
+<fieldset>
+<button type=submit>SUBMIT!</button>
+</fieldset>
+</div>
+</form>
+</section>
+</body>
+</html>

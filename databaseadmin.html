@@ -1,0 +1,180 @@
+<html>
+<head>
+<style>
+.button 
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button2 
+{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+.button2:hover 
+{
+    background-color: #008CBA;
+    color: white;
+}
+</style>
+</head>
+<body bgcolor="#FFE4C4">
+<a name="top"></a>
+<font size="6" color="#827717"><h1>MOCK TEST</h1></font>
+<font color="#827717"><h3>(Web Developer)</h3></font>
+<hr>
+<font size="4" color ="red"><b><u>PLEASE READ THE FOLLOWING INSTRUCTIONS CAREFULLY</u></b><br></font>
+<font size="5" color ="#DD2C00">
+1)This is your level 2 mock test<br>
+2)The test comprises of 20 questions each of 1 mark <br>
+3)You have to answer all questions<br>
+</font>
+<br>
+<br>
+<br>
+<form action = "quizresultdatabase.php" method = 'POST'>
+<font size="4" color ="#263238">
+1.	Which of the following statements is true about symmetric multiprocessing?<br>
+<input type = "radio" name = "q1" value = "1" >A.	A single copy of the operating system resides in each processor.<br>
+<input type = "radio" name = "q1" value = "1" >B.	Useful for situations where data must remain in memory to process.<br>
+<input type = "radio" name = "q1" value = "1" >C.	Bottlenecks increase with uniprocessor systems because tasks are not shared.<br>
+<input type = "radio" name = "q1" value = "1" >D.	The problems of memory contention are unlikely.<br>
+<br>
+2. 	Which of the following items are not necessary for client/server?<br>
+<input type = "radio" name = "q2" value = "1" >A.	Assure that tools will connect with middleware.<br>
+<input type = "radio" name = "q2" value = "1" >B.	Understand the requirements.<br>
+<input type = "radio" name = "q2" value = "1" >C.	Determine network bandwidth capabilities.<br>
+<input type = "radio" name = "q2" value = "1" >D.	Include the use of a file server.<br>
+<br>
+3. 	A benefit of the three-tier architecture is which of the following?<br>
+<input type = "radio" name = "q3" value = "1" >A.	New modules can be built to support specific business needs<br>
+<input type = "radio" name = "q3" value = "1" >B.	Performance improves for compiled SQL statements<br>
+<input type = "radio" name = "q3" value = "1" >C.	Results in a thinner client and database server<br>
+<input type = "radio" name = "q3" value = "1" >D.	All of the above.<br>
+<br>
+4. 	Which of the following statements is true concerning JDBC?<br>
+<input type = "radio" name = "q4" value = "1" >A.	It is language independent.<br>
+<input type = "radio" name = "q4" value = "1" >B.	It is similar in concept to ODBC.<br>
+<input type = "radio" name = "q4" value = "1" >C.	It is useful for all object-oriented languages.<br>
+<input type = "radio" name = "q4" value = "1" >D.	It consists of three main layers.<br>
+<br>
+5. 	A characteristic of a file server is which of the following?<br>
+<input type = "radio" name = "q5" value = "1" >A.	Manages file operations and is shared on a network.<br>
+<input type = "radio" name = "q5" value = "1" >B.	Manages file operations and is limited to one PC.<br>
+<input type = "radio" name = "q5" value = "1" >C.	Acts as a fat client and is shared on a network.<br>
+<input type = "radio" name = "q5" value = "1" >D.	Acts as a fat client and is limited to one PC.<br>
+
+<br>
+6. 	With which type of SQL Server recovery model are all database changes logged except<br> 
+those that cause large log entries?<br>
+<input type = "radio" name = "q6" value = "1" >A.	Differential recovery<br>
+<input type = "radio" name = "q6" value = "1" >B.	Full recovery<br>
+<input type = "radio" name = "q6" value = "1" >C.	Simple recovery<br>
+<input type = "radio" name = "q6" value = "1" >D.	Bulk-logged recovery<br>
+<br>
+7. 	Using SQL Server 2000, which of the following symbols is used to indicate parameters <br>
+in stored procedures?<br>
+<input type = "radio" name = "q7" value = "1" >A.	#<br>
+<input type = "radio" name = "q7" value = "1" >B.	%<br>
+<input type = "radio" name = "q7" value = "1" >C.	& <br>
+<input type = "radio" name = "q7" value = "1" >D.	@<br>
+<br>
+8.	What mode of authentication does SQL Server NOT provide?<br>
+<input type = "radio" name = "q8" value = "1" >A.	Windows-only security<br>
+<input type = "radio" name = "q8" value = "1" >B.	Both SQL Server and Windows-only security<br>
+<input type = "radio" name = "q8" value = "1" >C.	Mixed security<br>
+<input type = "radio" name = "q8" value = "1" >D.	SQL Server only security<br>
+<br>
+9. 	The strictest transaction isolation level provided by SQL Server is called:<br>
+<input type = "radio" name = "q9" value = "1" >A.	REPEATABLE READ.<br>
+<input type = "radio" name = "q9" value = "1" >B.	SERIALIZABLE.<br>
+<input type = "radio" name = "q9" value = "1" >C.	READ COMMITTED.<br>
+<input type = "radio" name = "q9" value = "1" >D.	READ UNCOMMITTED.<br>
+<br>
+10. SQL Server program code that is executed instead of an SQL command that <br>
+needs to be processed is called a(n):<br>
+<input type = "radio" name = "q10" value = "1" >A.	INSTEAD OF trigger.<br>
+<input type = "radio" name = "q10" value = "1" >B.	BEFORE trigger.<br>
+<input type = "radio" name = "q10" value = "1" >C.	AFTER trigger.<br>
+<input type = "radio" name = "q10" value = "1" >D.	BEGIN trigger.<br>
+<br>
+11. Which type of SQL Server cursor concurrency places an update lock <br>
+on a row when the row is read?<br>
+<input type = "radio" name = "q11" value = "1" >A.	READ_ONLY<br>
+<input type = "radio" name = "q11" value = "1" >B.	SCROLL_LOCK<br>
+<input type = "radio" name = "q11" value = "1" >C.	OPTIMISTIC<br>
+<input type = "radio" name = "q11" value = "1" >D.	READCOMMITTED<br>
+<br>
+12. Which of the three possible types of triggers does SQL Server support?<br>
+<input type = "radio" name = "q12" value = "1" >A.	INSTEAD OF Only<br>
+<input type = "radio" name = "q12" value = "1" >B.	AFTER only<br>
+<input type = "radio" name = "q12" value = "1" >C.	BEFORE only<br>
+<input type = "radio" name = "q12" value = "1" >D.	INSTEAD OF and AFTER only<br>
+<br>
+13. Which of the following is a way to create and modify tables using SQL Server?<br>
+<input type = "radio" name = "q13" value = "1" >A.	Write SQL code using either CREATE or ALTER SQL statements only.<br>
+<input type = "radio" name = "q13" value = "1" >B.	Use the graphical facilities of SQL Server Enterprise Manager only.<br>
+<input type = "radio" name = "q13" value = "1" >C.	Both of the two methods above will work.<br>
+<input type = "radio" name = "q13" value = "1" >D.	Neither of the two methods above will work.<br>
+<br>
+14. With which type of SQL Server recovery model, is no logging done?<br>
+<input type = "radio" name = "q14" value = "1" >A.	Differential recovery<br>
+<input type = "radio" name = "q14" value = "1" >B.	Full recovery<br>
+<input type = "radio" name = "q14" value = "1" >C.	Bulk-logged recovery<br>
+<input type = "radio" name = "q14" value = "1" >D.	Simple recovery<br>
+<br>
+15. SQL Server 2000 stored procedures can:<br>
+<input type = "radio" name = "q15" value = "1" >A.	never be kept within the database.<br>
+<input type = "radio" name = "q15" value = "1" >B.	be kept within the database and invoked by application programs.<br>
+<input type = "radio" name = "q15" value = "1" >C.	be stored on the users' computer.<br>
+<input type = "radio" name = "q15" value = "1" >D.	support BEFORE, INSTEAD OF and AFTER types.<br>
+16. What type of failure occurs when Oracle fails due to an operating system<br> 
+or computer hardware failure?<br>
+<input type = "radio" name = "q16" value = "1" >A.	Application failure<br>
+<input type = "radio" name = "q16" value = "1" >B.	Instance Failure<br>
+<input type = "radio" name = "q16" value = "1" >C.	Media Failure<br>
+<input type = "radio" name = "q16" value = "1" >D.	Rollback failure<br>
+<br>
+17. Which statement about sequences is not true?<br>
+<input type = "radio" name = "q17" value = "1" >A.	A sequence is an object that generates a sequential series of unique numbers.<br>
+<input type = "radio" name = "q17" value = "1" >B.	Sequences are most often used to provide values for surrogate keys.<br>
+<input type = "radio" name = "q17" value = "1" >C.	NextVal and CurrVal are both sequence methods.<br>
+<input type = "radio" name = "q17" value = "1" >D.	Sequences guarantee valid surrogate key values.<br>
+<br>
+18. Which prefixes are available to Oracle triggers?<br>
+<input type = "radio" name = "q18" value = "1" >A.	:new only<br>
+<input type = "radio" name = "q18" value = "1" >B.	:old only<br>
+<input type = "radio" name = "q18" value = "1" >C.	Both :new and :old<br>
+<input type = "radio" name = "q18" value = "1" >D.	Neither :new nor :old<br>
+<br>
+19. In creating a procedure, you may get a message if you have compile errors.<br>
+Which of the following is true?<br>
+<input type = "radio" name = "q19" value = "1" >A.	The line numbers reported match the line numbers you see in your text editor.<br>
+<input type = "radio" name = "q19" value = "1" >B.	SQL*Plus will automatically show the errors to you.<br>
+<input type = "radio" name = "q19" value = "1" >C.	To see the errors, enter SHOW ERRORS in SQL*Plus.<br>
+<input type = "radio" name = "q19" value = "1" >D.	If there are no syntax errors, you will receive the message "NO ERRORS."<br>
+<br>
+20. Which of the following is not true about indexes?<br>
+<input type = "radio" name = "q20" value = "1" >A.	Indexes are created to enforce uniqueness on columns.<br>
+<input type = "radio" name = "q20" value = "1" >B.	Indexes are created to enable fast retrieval by column values.<br>
+<input type = "radio" name = "q20" value = "1" >C.	Columns that are frequently used with equal conditions in WHERE clauses are good<br>
+ candidates for indexes.<br>
+<input type = "radio" name = "q20" value = "1" >D.	Indexes are created with the ALTER TABLE command.<br>
+<br>
+<input type = 'submit' value='SUBMIT' button class="button button2"></button>
+<a href="#top"><img src="arrow.png" width= "45px" height="45px" align="right" ></a>
+</font>
+</form>
+</body>
+</html>
